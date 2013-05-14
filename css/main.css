@@ -1,0 +1,73 @@
+/* 
+    Document   : main
+    Created on : 13-May-2013, 1:38:22 PM
+    Author     : navsha
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: #756e6e;
+  
+  
+}
+
+.container{
+  
+    background-color: #473d3d;
+   
+ 
+}
+
+.row{
+    padding:60px; 
+    
+}
+
+#header{
+   padding:60px;
+   font-size:60px;
+   font-weight:bold;
+   line-height:30px;
+   color: white;
+  text-align: center;
+  font-family: "Comic Sans",sans-serif,serif;
+   border-bottom-style: solid;
+
+}
+
+#white_font{
+    color: white;
+    text-align: justify;
+   min-height: 150px;
+  
+}
+
+#blue_font{
+
+    color:#0da6bf;
+   text-align: justify;
+      
+   
+}
+
+b{
+    color:coral;
+}
+
+#left_para{
+    text-align: right;
+    color:#74ae3d;
+    font-weight: bold;
+     font-family: "Arial",sans-serif,serif;
+    
+}
+
+#border_line{
+   
+     border:3px solid white;
+}
