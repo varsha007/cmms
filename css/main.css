@@ -12,47 +12,37 @@ root {
 
 body{
     background-color: #756e6e;
-  
-  
 }
 
 .container{
-  
     background-color: #473d3d;
-   
- 
 }
 
-.row{
-    padding:60px; 
-    
-}
+
 
 #header{
-   padding:60px;
-   font-size:60px;
-   font-weight:bold;
-   line-height:30px;
-   color: white;
-  text-align: center;
-  font-family: "Comic Sans",sans-serif,serif;
-   border-bottom-style: solid;
-
+    padding:40px 20px ;
+    font-size:60px;
+    font-weight:bold;
+    line-height:30px;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans",sans-serif,serif;
+    background: url('../images/bar.jpg') bottom repeat-x;
 }
 
 #white_font{
     color: white;
     text-align: justify;
-   min-height: 150px;
-  
+    font-family: "Times New Roman",sans-serif,serif;
+    line-height: 28px;
+    font-size: 21px;
+    margin-bottom: 40px;
 }
 
 #blue_font{
-
     color:#0da6bf;
-   text-align: justify;
-      
-   
+    text-align: justify;
 }
 
 b{
@@ -63,11 +53,54 @@ b{
     text-align: right;
     color:#74ae3d;
     font-weight: bold;
-     font-family: "Arial",sans-serif,serif;
-    
+    font-family: "Arial",sans-serif,serif;
 }
 
 #border_line{
-   
-     border:3px solid white;
+    background: url('../images/bar.jpg') bottom repeat-x;
+    height:20px;
+    width:100%;
+
+}
+
+.span6{
+    background: url('../images/bar.jpg') bottom repeat-x;
+    background: url('../images/bar_vertical.jpg') right repeat-y;
+    padding: 60px 1px 60px 110px;
+
+}
+
+#info1{
+    display:inline;
+    float:left;
+    font-size: 40px;
+    color: white;
+
+}
+
+#info2{
+    display: inline;
+    float: left;
+    font-size: 175px;
+    color: #0da6bf;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+#info3{
+    margin-top: 72px;
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    color: #0da6bf;
+    font-size: 90px;
+}
+#info4{
+    display: inline;
+    width: 200px;
+    margin-left: 10px;
+    float: left;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
 }
