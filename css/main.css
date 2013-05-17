@@ -52,7 +52,7 @@ b{
 
 #left_para{
     text-align: right;
-    color:#74ae3d;
+    color:#668133;
     font-weight: bold;
     font-family: "Arial",sans-serif,serif;
 }
@@ -67,19 +67,10 @@ b{
 .span6{
     background: url('../images/bar.jpg') bottom repeat-x;
     padding: 20px 10px 20px 110px;
-    height: 233px;
 }
 
 .span4{
     margin-left: -20px;
-}
-
-.btn{
-    border-radius: 39px;
-    color:#737a80;
-    width: 300px;
-    height: 80px;
-    font-size: 50px;
 }
 
 #info1{
@@ -136,28 +127,29 @@ b{
 
 #info5>h1{
     font-size: 69px;
-    color: #74ae3d;
+    color: #668133;
     line-height: 31px;
 }
 
 #info5>h3{
     font-size: 29px;
+    padding-bottom: 23px;
 }
 
 #info6{
     height: auto;
-    line-height: 30px;
-    width: 366px;
+    line-height: 28px;
+    width: 380px;
     text-align: justify;
     margin-left: 162px;
     margin-top: 80px;
-    background-color: #74ae3d;
+    background-color: #668133;
     padding: 15px;
     font-size: 20px;
     color: white;
     border: 1px solid transparent;
-    border-radius: 16px;
-    word-spacing: -3px;
+    border-radius: 10px;
+    word-spacing: -3px
 }
 
 #info6>h2{
@@ -169,10 +161,40 @@ b{
     line-height: 51px;
     width: 366px;
     text-align: right;
-    margin-left: 173px;
+    margin-left: 148px;
     margin-top: 68px;
     padding: 15px;
     font-size: 36px;
     color: white;
     font-style: italic;
+}
+#info8{
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.pillbox i {
+    width: 90px;
+    height: 90px;
+    border-radius: 39px 39px 0px 39px;
+    background-color: #668133;
+    position: relative; 
+    display: block;
+    float: left;
+    margin-top: -5px;
+    margin-left: -13px;
+
+}
+
+.pillbox {
+    font-size: 40px;
+    
+}
+
+.btn{
+    border-radius: 39px;
+    color:#737a80;
+    width: 300px;
+    height: 80px;
+    
 }
