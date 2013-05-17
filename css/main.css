@@ -12,6 +12,7 @@ root {
 
 body{
     background-color: #756e6e;
+
 }
 
 .container{
@@ -65,9 +66,20 @@ b{
 
 .span6{
     background: url('../images/bar.jpg') bottom repeat-x;
-    background: url('../images/bar_vertical.jpg') right repeat-y;
-    padding: 60px 1px 60px 110px;
+    padding: 20px 10px 20px 110px;
+    height: 233px;
+}
 
+.span4{
+    margin-left: -20px;
+}
+
+.btn{
+    border-radius: 39px;
+    color:#737a80;
+    width: 300px;
+    height: 80px;
+    font-size: 50px;
 }
 
 #info1{
@@ -75,6 +87,7 @@ b{
     float:left;
     font-size: 40px;
     color: white;
+    margin-left: 20px;
 
 }
 
@@ -98,9 +111,68 @@ b{
 #info4{
     display: inline;
     width: 200px;
-    margin-left: 10px;
+    margin-left: 20px;
     float: left;
     letter-spacing: 3px;
     line-height: 30px;
+    color:white;
 }
+
+#info4 strong{
+    color:#0da6bf;
+}
+#info5{
+    padding-top: 23px;
+    text-align: center;
+    padding-left: 71px;
+    color: white;
+    background: url('../images/bar_vertical.jpg') left repeat-y;
+}
+
+#info5>h2:first-child {
+    font-size: 39px;
+
+}
+
+#info5>h1{
+    font-size: 69px;
+    color: #74ae3d;
+    line-height: 31px;
+}
+
+#info5>h3{
+    font-size: 29px;
+}
+
+#info6{
+    height: auto;
+    line-height: 30px;
+    width: 366px;
+    text-align: justify;
+    margin-left: 162px;
+    margin-top: 80px;
+    background-color: #74ae3d;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    word-spacing: -3px;
+}
+
+#info6>h2{
+    text-align: center;
+}
+
+#info7{
+    height: auto;
+    line-height: 51px;
+    width: 366px;
+    text-align: right;
+    margin-left: 173px;
+    margin-top: 68px;
+    padding: 15px;
+    font-size: 36px;
+    color: white;
+    font-style: italic;
 }
