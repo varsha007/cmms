@@ -148,12 +148,51 @@ b{
     font-size: 20px;
     color: white;
     border: 1px solid transparent;
-    border-radius: 10px;
+    border-radius: 7px;
     word-spacing: -3px
 }
 
 #info6>h2{
     text-align: center;
+    line-height: 35px;
+}
+
+#info6 h3{
+    color: black;
+    font-weight: normal;
+    line-height: 12px;
+    font-size: 18px;
+    text-align: justify;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+
+#info6>p{
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+#info_button{
+    width: auto;
+    height: 40px;
+    background-color: coral;
+    color: black;
+    border-radius: 10px;
+    padding-left: 23px;
+    padding-right: 15px;
+    padding-top: 0px;
+    margin-top: 15px;
+
+
+}
+
+#info_button h2{
+    display: inline;
+    margin: 0;
+    font-size: 26px;
+    font-weight: normal;
+    word-spacing: 1px;
+    letter-spacing: 1px
 }
 
 #info7{
@@ -167,10 +206,6 @@ b{
     font-size: 36px;
     color: white;
     font-style: italic;
-}
-#info8{
-    padding-right: 5px;
-    padding-bottom: 10px;
 }
 
 .pillbox i {
@@ -188,7 +223,7 @@ b{
 
 .pillbox {
     font-size: 40px;
-    
+
 }
 
 .btn{
@@ -196,5 +231,22 @@ b{
     color:#737a80;
     width: 300px;
     height: 80px;
-    
+
+}
+
+#info8{
+    display: inline ;
+    float: right;
+    margin: 0;   
+    font-size:30px;
+    font-weight: normal;
+
+}
+#info9{
+    line-height: 25px;
+    word-spacing: -1px;
+}
+
+.span10{
+    background-color: #668133;
 }
